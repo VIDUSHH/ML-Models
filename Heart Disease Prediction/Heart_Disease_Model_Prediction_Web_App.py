@@ -28,10 +28,6 @@ def heart_disease_prediction(input_data):
 def main():
     #Giving a title
     st.title("Heart Disease Prediction Web App")
-    
-    #Getting the input data from the user
-        
-   import streamlit as st
 
 st.title("Heart Disease Prediction Form")
 
