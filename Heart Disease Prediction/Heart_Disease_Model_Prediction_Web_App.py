@@ -10,7 +10,7 @@ import numpy as np
 import streamlit as st
 
 # Load the trained model
-loaded_model = pickle.load(open('Heart Disease Prediction/models/heart_disease_model.pkl', 'rb'))
+loaded_model = pickle.load(open('Heart Disease Prediction/models/Heart_Disease_Prediction.pkl', 'rb'))
 
 # Prediction function
 def heart_disease_prediction(input_data):
